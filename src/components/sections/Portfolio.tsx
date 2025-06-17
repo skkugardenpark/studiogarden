@@ -32,7 +32,7 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'EENG Academy',
+      title: 'Engage Academy',
       category: '교육 플랫폼',
       description: '영어 전문 교육원의 현대적이고 체계적인 웹사이트. 맞춤형 커리큘럼과 전문 강사진을 소개하는 완성도 높은 교육 플랫폼',
       image: '/portfolio/academy.jpg',
