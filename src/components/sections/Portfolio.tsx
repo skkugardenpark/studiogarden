@@ -35,7 +35,7 @@ const Portfolio = () => {
       title: 'Engage Academy',
       category: '교육 플랫폼',
       description: '영어 전문 교육원의 현대적이고 체계적인 웹사이트. 맞춤형 커리큘럼과 전문 강사진을 소개하는 완성도 높은 교육 플랫폼',
-      image: '/portfolio/academy.jpg',
+      image: '/portfolio/academy.png',
       tags: ['교육', '반응형', '현대적 디자인', 'Next.js'],
       url: 'https://academy-phi-two.vercel.app/'
     },
