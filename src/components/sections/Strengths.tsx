@@ -199,7 +199,7 @@ const Strengths = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
               { number: '24H', label: '평균 응답 시간' },
-              { number: '1년', label: '무료 유지보수' },
+              { number: '1개월', label: '무료 유지보수' },
               { number: '100%', label: '고객 만족도' },
               { number: '7일', label: '기본 제작 기간' }
             ].map((stat, index) => (

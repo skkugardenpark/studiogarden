@@ -173,7 +173,7 @@ const Process = () => {
           <div className="glass-effect rounded-2xl p-8 md:p-12 hover-card">
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                총 제작 기간: <span className="gradient-text">2-4주</span>
+                총 제작 기간: <span className="gradient-text">1-3주</span>
               </h3>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                 프로젝트 규모와 복잡도에 따라 기간은 조정될 수 있으며, 
