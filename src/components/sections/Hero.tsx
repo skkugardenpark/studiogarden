@@ -252,8 +252,8 @@ const Hero = () => {
           {[
             { number: '50+', label: '프로젝트 완료' },
             { number: '100%', label: '고객 만족도' },
-            { number: '24시간', label: '빠른 응답' },
-            { number: '1개월', label: '기본 유지보수' }
+            { number: '1-3주', label: '총 제작 기간' },
+            { number: '1개월', label: '무료 유지보수' }
           ].map((stat, index) => (
             <motion.div
               key={index}
