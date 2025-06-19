@@ -40,12 +40,12 @@ const Portfolio = () => {
       url: 'https://academy-phi-two.vercel.app/'
     },
     {
-      title: '감성 카페 브랜드',
-      category: '브랜드 웹사이트',
-      description: '따뜻한 감성과 편안함을 전달하는 카페 브랜드 웹사이트',
-      image: '/portfolio/cafe.jpg',
-      tags: ['반응형', 'UI/UX', '브랜딩'],
-      url: '#'
+      title: 'MONODESK',
+      category: '데스크테리어 브랜드',
+      description: '당신의 공간에 특별함을 더하는 감성 데스크테리어 브랜드. 자연의 온기와 감성을 담은 프리미엄 소품들로 개성 있는 공간을 만들어보세요.',
+      image: '/portfolio/monodesk.png',
+      tags: ['브랜딩', '이커머스', '프리미엄', '감성디자인'],
+      url: 'https://monodesk.vercel.app/'
     },
     {
       title: '럭셔리 패션 쇼핑몰',
