@@ -106,7 +106,7 @@ const Portfolio = () => {
               className="group cursor-pointer"
               onClick={() => handleProjectClick(project.url)}
             >
-              <div className="bg-white rounded-2xl overflow-hidden hover-card">
+              <div className="bg-white rounded-2xl overflow-hidden hover-card h-full flex flex-col">
                 <div className="relative h-64 overflow-hidden">
                   <Image
                     src={project.image}
@@ -123,7 +123,7 @@ const Portfolio = () => {
                     </div>
                   )}
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-sm text-garden-green-500 font-medium">{project.category}</span>
                     <ArrowRight className="w-5 h-5 text-garden-green-500 transform group-hover:translate-x-1 transition-transform duration-300" />
@@ -131,8 +131,8 @@ const Portfolio = () => {
                   <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-garden-green-500 transition-colors duration-300">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 mb-4 text-sm">{project.description}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
+                  <p className="text-gray-600 mb-4 text-sm flex-1">{project.description}</p>
+                  <div className="flex flex-wrap gap-2 mb-4 min-h-[2.5rem]">
                     {project.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
@@ -142,7 +142,7 @@ const Portfolio = () => {
                       </span>
                     ))}
                   </div>
-                  <button className="w-full py-3 bg-gray-50 hover:bg-garden-green-500 hover:text-white text-gray-700 rounded-xl font-medium transition-all duration-300 group-hover:bg-garden-green-500 group-hover:text-white flex items-center justify-center space-x-2">
+                  <button className="w-full py-3 bg-gray-50 hover:bg-garden-green-500 hover:text-white text-gray-700 rounded-xl font-medium transition-all duration-300 group-hover:bg-garden-green-500 group-hover:text-white flex items-center justify-center space-x-2 mt-auto">
                     <span>{project.url !== '#' ? '사이트 방문하기' : '자세히 보기'}</span>
                     {project.url !== '#' && <ExternalLink className="w-4 h-4" />}
                   </button>
