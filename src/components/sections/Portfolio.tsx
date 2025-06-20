@@ -48,12 +48,12 @@ const Portfolio = () => {
       url: 'https://monodesk.vercel.app/'
     },
     {
-      title: '럭셔리 패션 쇼핑몰',
-      category: '이커머스',
-      description: '고급스러운 분위기의 패션 브랜드 온라인 스토어',
-      image: '/portfolio/fashion.jpg',
-      tags: ['쇼핑몰', '결제 시스템', 'CMS'],
-      url: '#'
+      title: 'Haven Stay',
+      category: '숙박 예약 사이트',
+      description: '자연 속 평온한 공간, Haven Stay. 미니멀하고 고급스러운 디자인으로 진정한 휴식을 제공하는 숙박 예약 플랫폼',
+      image: '/portfolio/heaven.png',
+      tags: ['숙박', '예약시스템', '프리미엄', '반응형'],
+      url: 'https://stayhv.vercel.app/'
     },
     {
       title: '디지털 마케팅 에이전시',
