@@ -56,12 +56,12 @@ const Portfolio = () => {
       url: 'https://stayhv.vercel.app/'
     },
     {
-      title: '디지털 마케팅 에이전시',
-      category: '기업 사이트',
-      description: '혁신적인 디자인의 마케팅 회사 웹사이트',
-      image: '/portfolio/agency.jpg',
-      tags: ['모던 디자인', '포트폴리오', '애니메이션'],
-      url: '#'
+      title: 'Lumière Derm',
+      category: '피부과 클리닉',
+      description: '과학과 감성의 완벽한 균형으로 건강하고 아름다운 피부를 만들어드리는 전문 피부과 클리닉. 첨단 의료 기술과 따뜻한 마음이 만나는 프리미엄 의료 서비스',
+      image: '/portfolio/lumiere.png',
+      tags: ['의료', '피부과', '프리미엄', '반응형'],
+      url: 'https://lumiere-sage.vercel.app/'
     }
   ];
 
